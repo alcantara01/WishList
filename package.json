@@ -1,0 +1,29 @@
+{
+  "name": "wishlist",
+  "version": "1.0.0",
+  "description": "ejemplo de clase",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "lint": "eslint --fix --ext .js,.jsx src"
+  },
+  "author": "CRIS",
+  "license": "ISC",
+  "dependencies": {
+    "g": "^2.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "parcel-bundler": "^1.12.5",
+    "react-devtools": "^4.27.1"
+  }
+}
